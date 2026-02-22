@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="File di origine\dataset">
+      <UniqueIdentifier>{05d7b66c-2cec-468e-9e88-64abeea8f8bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="layer.cuh">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="neural_network.cuh">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="kernels.cuh">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.cuh">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="data_loader.cuh">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="layer.cu">
+      <Filter>File di origine</Filter>
+    </CudaCompile>
+    <CudaCompile Include="neural_network.cu">
+      <Filter>File di origine</Filter>
+    </CudaCompile>
+    <CudaCompile Include="main.cu">
+      <Filter>File di origine</Filter>
+    </CudaCompile>
+    <CudaCompile Include="data_loader.cu">
+      <Filter>File di origine</Filter>
+    </CudaCompile>
+    <CudaCompile Include="kernels.cu">
+      <Filter>File di origine</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\cuda-nn\cuda-nn\y_train_CF.bin">
+      <Filter>File di origine\dataset</Filter>
+    </None>
+    <None Include="..\..\cuda-nn\cuda-nn\X_test.bin">
+      <Filter>File di origine\dataset</Filter>
+    </None>
+    <None Include="..\..\cuda-nn\cuda-nn\X_test_CF.bin">
+      <Filter>File di origine\dataset</Filter>
+    </None>
+    <None Include="..\..\cuda-nn\cuda-nn\X_train.bin">
+      <Filter>File di origine\dataset</Filter>
+    </None>
+    <None Include="..\..\cuda-nn\cuda-nn\X_train_CF.bin">
+      <Filter>File di origine\dataset</Filter>
+    </None>
+    <None Include="..\..\cuda-nn\cuda-nn\y_test.bin">
+      <Filter>File di origine\dataset</Filter>
+    </None>
+    <None Include="..\..\cuda-nn\cuda-nn\y_test_CF.bin">
+      <Filter>File di origine\dataset</Filter>
+    </None>
+    <None Include="..\..\cuda-nn\cuda-nn\y_train.bin">
+      <Filter>File di origine\dataset</Filter>
+    </None>
+  </ItemGroup>
+</Project>
