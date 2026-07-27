@@ -16,15 +16,9 @@ This project implements a multi-layer perceptron (MLP) from scratch using direct
     
     - **He Initialization:** Weights initialized based on input size to ensure stable convergence.
         
-    - **Gradient Clipping:** Prevents exploding gradients by capping the norm at 1.0.
-        
-    - **L2 Regularization:** Reduces overfitting by penalizing large weights.
-        
     - **Early Stopping:** Automatically halts training when performance on the test set plateaus.
         
     - **Learning Rate Scheduling:** Dynamically reduces the learning rate to fine-tune accuracy.
-        
-- **Data Augmentation:** Real-time transformation of training data including random rotation, noise addition, and horizontal flipping.
     
 
 ## Technical Architecture
